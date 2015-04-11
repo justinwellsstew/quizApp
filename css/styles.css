@@ -1,0 +1,25 @@
+header{
+  background-color: #F07057;
+}
+
+header h1{
+  font-size: 3em;
+  text-align: center;
+  color:#FFFFFF;
+  padding: .5em 0;
+  font-family: "brandon-grotesque", serif;
+  text-transform: uppercase;
+}
+
+#quiz-area {
+  background-color: #FAEBD7;
+  font-size: 1.5em;
+  font-family: verdana;
+  color: #444444;
+  line-height: 1.75em;
+}
+
+#quiz-area > p {
+  font-weight: bold;
+}
+
