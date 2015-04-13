@@ -11,15 +11,32 @@ header h1{
   text-transform: uppercase;
 }
 
-#quiz-area {
+#main {
   background-color: #FAEBD7;
+}
+
+#quiz-area {
   font-size: 1.5em;
   font-family: verdana;
   color: #444444;
   line-height: 1.75em;
 }
 
-#quiz-area > p {
+#quiz-box {
+  width:50%;
+  margin: 1em auto;
+  border: solid 5px #FFFFFF;
+  padding: 1em;
+}
+
+#quiz-box > p {
   font-weight: bold;
+}
+
+#quiz-box button {
+  width: 100%;
+  font-size: 1em;
+  font-family: "brandon-grotesque", serif;
+  background-color: #FAEBD7;
 }
 
