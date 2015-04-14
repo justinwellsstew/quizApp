@@ -1,5 +1,11 @@
+body{
+  background-color: #F2D3C6;
+}
+
+
 header{
-  background-color: #F07057;
+  background-color: #F37948;
+  border-bottom: solid 1px #F14E25;
 }
 
 header h1{
@@ -12,7 +18,7 @@ header h1{
 }
 
 #main {
-  background-color: #FAEBD7;
+
 }
 
 #quiz-area {
@@ -20,6 +26,11 @@ header h1{
   font-family: verdana;
   color: #444444;
   line-height: 1.75em;
+}
+
+#quiz-area #question-number {
+  text-align: center;
+  padding-bottom: 1em;
 }
 
 #quiz-box {
@@ -33,10 +44,14 @@ header h1{
   font-weight: bold;
 }
 
-#quiz-box button {
+#quiz-box #submit-button {
   width: 100%;
   font-size: 1em;
   font-family: "brandon-grotesque", serif;
-  background-color: #FAEBD7;
+  background-color: #052B3E;
+  text-align: center;
+  color: #FAEBD7;
+  border-bottom: solid 2px #F14E25;
+  margin-top: 1em;
 }
 
