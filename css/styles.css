@@ -53,5 +53,17 @@ header h1{
   color: #FAEBD7;
   border-bottom: solid 2px #F14E25;
   margin-top: 1em;
+  cursor: pointer;
+}
+
+#final {
+  font-size: 4em;
+  text-align: center;
+  padding-top: 4em;
+  font-family: "brandon-grotesque", serif;
+}
+
+.hide{
+  display: none;
 }
 
