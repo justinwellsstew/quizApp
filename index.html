@@ -5,7 +5,7 @@
   <link href="css/reset.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
   <script src="//use.typekit.net/iwa2flf.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+  <script>try{Typekit.load();}catch(e){}</script> 
 </head>
 <body>
   <div id = "main">
@@ -14,16 +14,18 @@
     </header>
     <section id ="quiz-area">
       <div id = "quiz-box"> 
-        <p> What is the capital of Iowa? </p>
-        <input type = "radio" name = "capitals" value = "Topeka"> Topeka<br/>
-        <input type = "radio" name = "capitals" value = "Des Moines"> Des Moines<br/>
-        <input type = "radio" name = "capitals" value = "Iowa City"> Iowa City<br/>
-        <div role ="button" id = "submit-button"> Submit </div>
+        <p id = "question"> Question </p>
+        <div id = "question-options">
+        </div>
+        <div role="button" id="submit-button"> Submit </div>
       </div>
-      <div id = "question-number">Question 3 of 5</div>
+      <div id = "question-number"></div>
     </section>
+    <div id="final">
+    </div>
     <footer>
     </footer>
   </div>
+  <script src ="js/app.js" type="text/javascript"></script>
 </body>
 </html>  
